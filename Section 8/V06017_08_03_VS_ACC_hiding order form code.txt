@@ -1,0 +1,20 @@
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#content").hide();
+$("#IMAGE").hide();
+});
+  
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#show").click(function(){
+    $("#content").show(500);
+    $("#IMAGE").show(500);
+  });
+});
+</script>
+<p align="center">Your Sales Page</p>
+<br>
+<a align="center" href="#content" id="show">Cart Button</a>

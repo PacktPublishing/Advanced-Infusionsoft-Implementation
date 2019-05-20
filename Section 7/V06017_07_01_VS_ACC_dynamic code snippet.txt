@@ -1,0 +1,22 @@
+<script type="text/javascript">
+var x='~Contact._REPLACE_ME~'
+if (x == 'No')
+{var url = 'REPLACE_ME';}
+else if (x=='Yes')
+{var url = 'REPLACE_ME';}
+else
+{var url = 'REPLACE_ME';}
+var delay = 0;
+setTimeout(function(){window.location.href = url;}, delay);
+</script>
+
+
+
+
+
+https://www.google.com/search?q=no
+
+
+https://www.google.com/search?q=yes
+
+https://www.google.com/search?q=default
